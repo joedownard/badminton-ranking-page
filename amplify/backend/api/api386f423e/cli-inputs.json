@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "paths": {
+    "/getRankings": {
+      "name": "/getRankings",
+      "lambdaFunction": "badmintonrankingpage0378b322",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "read"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-badmintonrankingpage-dev-105317-authRole",
+      "UnauthRoleArn": "arn:aws:iam::083551419963:role/amplify-badmintonrankingpage-dev-105317-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::083551419963:role/amplify-badmintonrankingpage-dev-105317-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-badmintonrankingpage-dev-105317-deployment",
+      "UnauthRoleName": "amplify-badmintonrankingpage-dev-105317-unauthRole",
+      "StackName": "amplify-badmintonrankingpage-dev-105317",
+      "StackId": "arn:aws:cloudformation:eu-west-2:083551419963:stack/amplify-badmintonrankingpage-dev-105317/b8f39e20-b721-11ec-807e-0677d1af0a70",
+      "AmplifyAppId": "d3le1tmij40oac",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-badmintonrankingpage-dev-105317-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "undefined": {}
+      },
+      "function": {
+        "badmintonrankingpage0378b322": {
+          "deploymentBucketName": "amplify-badmintonrankingpage-dev-105317-deployment",
+          "s3Key": "amplify-builds/badmintonrankingpage0378b322-79636159757374524771-build.zip"
+        }
+      }
+    }
+  }
+}
