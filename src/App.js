@@ -40,15 +40,11 @@ function RankingList() {
 
   if (players.length !== 0) {
     var players_sorted = [...players]
-    players_sorted = players_sorted.sort((a, b) => {
+    players_sorted.sort((a, b) => {
       if (a["Grade"][0] === b["Grade"][0]) {
-          if (a["Grade"][1] === "+") {
-            return -1
-          } else {
-            return 1
-          }
+        return a["Grade"].charCodeAt(1) - b["Grade"].charCodeAt(1)
       } else {
-        return a["Grade"] - b["Grade"]
+        return a["Grade"].charCodeAt(0) - b["Grade"].charCodeAt(0)
       }
     })
 
